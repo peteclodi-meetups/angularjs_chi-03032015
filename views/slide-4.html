@@ -1,0 +1,8 @@
+<div class="slide slide-4" ng-click="switchPartial($event)">
+    <h1>Implementation Details</h1>
+    <h2>Client-Side</h2>
+    <hr>
+    <ng-include src=" 'views/partials/slide-4-client-software.html' " ng-if="showPartial === 1"></ng-include>
+    <ng-include src=" 'views/partials/slide-4-client-software-angular-seo.html' " ng-if="showPartial === 2"></ng-include>
+    <ng-include src=" 'views/partials/slide-4-client-software-angular-seo-controller.html' " ng-if="showPartial === 3"></ng-include>
+</div>

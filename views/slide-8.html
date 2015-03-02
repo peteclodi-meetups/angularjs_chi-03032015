@@ -1,0 +1,9 @@
+<div class="slide slide-8">
+    <h1 ng-click="switchPartial($event)">OK, now what does it do?</h1>
+    <h2  ng-click="switchPartial($event)">Google and Bing</h2>
+    <ng-include src=" 'views/partials/slide-8-escaped-fragment-sync.html' " ng-if="showPartial === 1"></ng-include>
+    <ng-include src=" 'views/partials/slide-8-escaped-fragment-async.html' " ng-if="showPartial === 2"></ng-include>
+    <pre ng-if="crawledHTML">
+        <div hljs language="html" class="code" source="crawledHTML"></div>
+    </pre>
+</div>

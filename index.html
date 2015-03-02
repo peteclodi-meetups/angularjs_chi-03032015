@@ -1,0 +1,40 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta name="fragment" content="!">
+        <title>Angular SEO</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <base href="/">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+        <link rel="stylesheet" href="bower_components/highlightjs/styles/default.css">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body ng-app="angularSEOApp" ng-strict-di>
+        <h2 class="title">Angular SEO with PhantomJS & Angular-SEO</h2>
+        <ng-view class="content"></ng-view>
+        <paging max-page-index="10"></paging>
+
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.js"></script>
+        <script src="bower_components/angular-resource/angular-resource.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="bower_components/angular-seo/angular-seo.js"></script>
+        <script src="bower_components/highlightjs/highlight.pack.js"></script>
+        <script src="bower_components/angular-highlightjs/angular-highlightjs.js"></script>
+
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/slide-1.js"></script>
+        <script src="scripts/controllers/slide-2.js"></script>
+        <script src="scripts/controllers/slide-3.js"></script>
+        <script src="scripts/controllers/slide-4.js"></script>
+        <script src="scripts/controllers/slide-5.js"></script>
+        <script src="scripts/controllers/slide-8.js"></script>
+        <script src="scripts/controllers/sync.js"></script>
+        <script src="scripts/controllers/async.js"></script>
+        <script src="scripts/directives/paging.js"></script>
+        <script src="scripts/services/seo-controller-interceptor.js"></script>
+    </body>
+</html>

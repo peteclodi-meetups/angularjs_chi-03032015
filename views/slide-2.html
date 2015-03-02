@@ -1,0 +1,7 @@
+<div class="slide slide-2" ng-click="switchPartial($event)">
+    <h1>How can we solve this?</h1>
+    <h2>Prerender.io or DIY</h2>
+    <hr>
+    <ng-include src=" 'views/partials/slide-2-prerender.html' " ng-if="showPartial === 1"></ng-include>
+    <ng-include src=" 'views/partials/slide-2-diy.html' " ng-if="showPartial === 2"></ng-include>
+</div>
