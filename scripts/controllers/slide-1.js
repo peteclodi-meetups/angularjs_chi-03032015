@@ -16,13 +16,13 @@ angular.module('angularSEOApp')
         ];
         $scope.problems = [{id: 3, text: 'SPAs need to be run'}];
         $scope.curlProblems = false;
+        $scope.crawledHTML = '';
         $scope.addProblem = function() {
             if(problems.length > 0) {
                 $scope.problems.push(problems.pop());
             }
             else {
                 $scope.curlProblems = true;
-                $scope.crawledHTML = '';
             }
         };
 
