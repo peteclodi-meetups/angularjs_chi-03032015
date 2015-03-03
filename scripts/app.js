@@ -61,6 +61,9 @@ angular
             .when('/9', {
                 templateUrl: 'views/slide-9.html'
             })
+            .when('/10', {
+                templateUrl: 'views/slide-10.html'
+            })
             .otherwise({
                 redirectTo: '/'
             });
