@@ -205,12 +205,14 @@ paging > button:disabled {
     color: red;
 }
 
+.slide-1 > ng-include > .code,
 .slide-8 > ng-include > .code {
     display: inline-block;
     font-size: 28px;
     text-align: left;
 }
 
+.slide-1 div.code,
 .slide-8 div.code {
     background-color: #FFFFFF;
     color: #000000;

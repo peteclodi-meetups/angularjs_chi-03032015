@@ -13,12 +13,6 @@ angular
             .when('/', {
                 redirectTo: '/0'
             })
-            .when('/sync', {
-                redirectTo: '/0'
-            })
-            .when('/async', {
-                redirectTo: '/1'
-            })
             .when('/0', {
                 templateUrl: 'views/slide-0.html'
             })
@@ -66,9 +60,6 @@ angular
             })
             .when('/9', {
                 templateUrl: 'views/slide-9.html'
-            })
-            .when('/10', {
-                templateUrl: 'views/slide-10.html'
             })
             .otherwise({
                 redirectTo: '/'
