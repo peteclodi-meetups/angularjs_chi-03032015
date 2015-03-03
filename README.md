@@ -24,4 +24,7 @@ Presented on 3/3/2015
  - Show the example pages (“through cURL”)
     - _escaped_fragment_/sync
     - _escaped_fragment_/async
+ - Show the example pages (through cURL)
+    - /sync User-Agent: twitterbot
+    - /async User-Agent: twitterbot
  - Questions
